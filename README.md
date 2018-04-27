@@ -5,15 +5,11 @@
 ```shell
 # 启动项目
 npm run dev
-# OR
-yarn dev
 ```
 
 ```shell
 # 启动项目
 npm run build
-# OR
-yarn build
 ```
 
 ## plugins
@@ -25,4 +21,7 @@ yarn build
 - babel         转译es新特性
 
 ## 项目来源
-感谢 git@github.com:zlxbuzz/parcel-demo.git
+感谢 `git@github.com:zlxbuzz/parcel-demo.git`
+
+## 注意
+使用 `yarn` 启动本项目会报错，目前未发现原因
