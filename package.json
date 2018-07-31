@@ -10,6 +10,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
     "autoprefixer": "^7.2.5",
     "babel-eslint": "^8.2.1",
     "babel-preset-env": "^1.6.1",
@@ -19,17 +20,18 @@
     "eslint-plugin-import": "^2.8.0",
     "less": "^2.7.3",
     "parcel-bundler": "^1.2.0",
-    "parcel-plugin-vue": "^1.0.1",
     "postcss-import": "^11.0.0",
     "postcss-url": "^7.3.0",
     "stylelint": "^8.4.0",
     "stylelint-config-recess-order": "^1.2.3",
     "stylelint-config-standard": "^18.0.0",
-    "stylelint-processor-html": "^1.0.0"
+    "stylelint-processor-html": "^1.0.0",
+    "vue-template-compiler": "^2.5.16"
   },
   "dependencies": {
     "mint-ui": "^2.2.13",
     "vue": "^2.5.13",
+    "vue-hot-reload-api": "^2.3.0",
     "vue-router": "^3.0.1"
   },
   "browserslist": [
