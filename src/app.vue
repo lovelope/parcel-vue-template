@@ -1,6 +1,5 @@
 <template>
   <div class="app">
-    <router-view />
     <mt-tabbar
       v-model="selected"
       fixed>
@@ -15,6 +14,7 @@
           src="https://cn.vuejs.org/images/logo.png"> 详情
       </mt-tab-item>
     </mt-tabbar>
+    <router-view />
   </div>
 </template>
 <style>
