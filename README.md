@@ -23,5 +23,3 @@ npm run build
 ## 项目来源
 感谢 `git@github.com:zlxbuzz/parcel-demo.git`
 
-## 注意
-使用 `yarn` 启动本项目会报错，目前未发现原因

@@ -1,12 +1,18 @@
 <template>
   <div class="app">
-    <router-view></router-view>
-    <mt-tabbar v-model="selected">
+    <router-view />
+    <mt-tabbar
+      v-model="selected"
+      fixed>
       <mt-tab-item id="index">
-        <img slot="icon" src="https://cn.vuejs.org/images/logo.png"> 首页
+        <img
+          slot="icon"
+          src="https://cn.vuejs.org/images/logo.png"> 首页
       </mt-tab-item>
       <mt-tab-item id="detail">
-        <img slot="icon" src="https://cn.vuejs.org/images/logo.png"> 详情
+        <img
+          slot="icon"
+          src="https://cn.vuejs.org/images/logo.png"> 详情
       </mt-tab-item>
     </mt-tabbar>
   </div>

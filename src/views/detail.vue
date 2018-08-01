@@ -1,10 +1,9 @@
 <template>
-  <div>
-    <mt-radio 
-      title="单选框列表" 
-      v-model="value" 
-      :options="['选项A', '选项B', '选项C']"
-    ></mt-radio>
+  <div class="detail">
+    <mt-radio
+      v-model="value"
+      title="单选框列表"
+      :options="['选项A', '选项B', '选项C']" />
   </div>
 </template>
 <style scoped>

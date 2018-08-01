@@ -1,8 +1,8 @@
-import Vue from 'vue/dist/vue.esm';
+import Vue from 'vue';
 import 'mint-ui/lib/style.css';
-import MintUI from 'mint-ui/lib/index';
+import MintUI from 'mint-ui';
 
-import app from './app.vue';
+import App from './app.vue';
 import router from './router';
 import './index.less';
 
@@ -11,9 +11,7 @@ Vue.use(MintUI);
 /* eslint-disable no-new */
 new Vue({
   router,
-  el: 'app',
-  components: {
-    app,
-  },
+  el: '#app',
+  render: h => h(App),
 });
 /* eslint-enable no-new */
