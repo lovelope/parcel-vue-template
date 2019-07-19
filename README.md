@@ -1,5 +1,7 @@
 # ParcelVueDemo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lovelope/parcel-vue-template.svg)](https://greenkeeper.io/)
+
 ## 项目使用
 
 ```shell
